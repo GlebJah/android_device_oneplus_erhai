@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from erhai device
 $(call inherit-product, device/oneplus/erhai/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := lineage_erhai
+PRODUCT_NAME := custom_erhai
 PRODUCT_DEVICE := erhai
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
